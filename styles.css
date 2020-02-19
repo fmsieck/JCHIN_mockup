@@ -29,3 +29,48 @@ body {
 .contacts {
   background-color: gray;
 }
+
+/* Ben added this */
+.title-about {
+  color: rgba(26, 26, 26, 0.884);
+  margin: 10px;
+}
+
+.h-line {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.about-text {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.more-about {
+  background-color: rgba(148, 60, 60, 0.801);
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.list-1 {
+  margin-bottom: 15px;
+}
+
+.more-about-button {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.more-about-button a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+  text-decoration: none;
+}
+/* End of things Ben added */
