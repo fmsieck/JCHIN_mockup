@@ -3,6 +3,12 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body {
+  background-color: silver;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
 
 h1,
 h2,
@@ -10,20 +16,19 @@ h3 {
   color: whitesmoke;
   text-align: center;
 }
+
 .profile-pic {
   background-color: snow;
-}
-body {
-  background-color: silver;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
 }
 
 .ul {
   list-style-type: bullet;
 }
+
 .projects {
   background-color: gray;
+  padding: 8px;
+  margin-top: 8px;
 }
 
 .contacts {
@@ -32,7 +37,7 @@ body {
 
 /* Ben added this */
 .title-about {
-  color: rgba(26, 26, 26, 0.884);
+  color: whitesmoke;
   margin: 10px;
 }
 
@@ -49,7 +54,7 @@ body {
 }
 
 .more-about {
-  background-color: rgba(148, 60, 60, 0.801);
+  background-color: dimgray;
   border-radius: 5px;
   padding: 15px 32px;
   text-align: center;
@@ -57,6 +62,27 @@ body {
   margin-bottom: 15px;
 }
 
+.projects-button {
+  background-color: dimgray;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.projects-type-button {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.projects-type-button a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+  text-decoration: none;
+}
 .list-1 {
   margin-bottom: 15px;
 }
@@ -74,3 +100,23 @@ a:active {
   text-decoration: none;
 }
 /* End of things Ben added */
+.h-line-projects {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 500px;
+  margin: auto;
+}
+
+.h-line-contacts {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.h-line-footer {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  width: 500px;
+  margin: 0 auto;
+}

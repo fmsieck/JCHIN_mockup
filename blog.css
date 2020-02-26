@@ -81,3 +81,8 @@
   margin-right: 20px;
   margin-left: 20px;
 }
+
+.fab:hover {
+  opacity: 50%;
+  color: red;
+}
