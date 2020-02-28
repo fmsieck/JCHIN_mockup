@@ -3,9 +3,10 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 body {
   background-color: silver;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", "sans-serif";
   text-align: center;
   margin: 0 auto;
 }
@@ -21,6 +22,10 @@ h3 {
   background-color: snow;
 }
 
+.Jchin {
+  padding: 15px;
+}
+
 .ul {
   list-style-type: bullet;
 }
@@ -31,21 +36,32 @@ h3 {
   margin-top: 8px;
 }
 
-.contacts {
-  background-color: gray;
+.projects-word {
+  padding: 10px;
 }
 
-/* Ben added this */
+.all-pictures {
+  margin-top: 10px;
+}
+.contacts {
+  background-color: gray;
+  padding: 10px;
+}
+
+.contact-info {
+  padding-top: 10px;
+}
+
 .title-about {
   color: whitesmoke;
-  margin: 10px;
+  padding: 10px;
 }
 
 .h-line {
   margin-top: 15px;
   margin-bottom: 20px;
   width: 500px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .about-text {
@@ -99,19 +115,16 @@ a:active {
   color: white;
   text-decoration: none;
 }
-/* End of things Ben added */
+
 .h-line-projects {
-  margin-top: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   width: 500px;
   margin: auto;
 }
 
 .h-line-contacts {
-  margin-top: 15px;
-  margin-bottom: 20px;
+  margin: auto;
   width: 500px;
-  margin: 0 auto;
 }
 
 .h-line-footer {
