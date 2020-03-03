@@ -35,7 +35,7 @@ body {
   margin-top: 10px;
 }
 
-.dci-pic {
+.dci-caption {
   color: dimgray;
   margin-top: 10px;
 }
@@ -57,10 +57,25 @@ body {
   margin-right: 10px;
 }
 
-/* media query */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: dimgray;
+  align-items: center;
+}
+
+.fa:hover {
+  opacity: 20%;
+}
+
+/* mobile */
 
 @media (min-width: 760px) {
   .dci {
-    width: 25%;
+    width: 100%;
   }
 }
