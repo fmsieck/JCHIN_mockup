@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Josefin Sans", "sans-serif";
+  text-align: center;
+}
+
+.header {
+  background-color: lightgray;
+  padding: 0.5em;
+  margin-bottom: 0.25em;
+  border: solid dimgray;
+  border-radius: 10px;
+}
+.masonry {
+  column-count: 2;
+  column-gap: 0.5rem;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  padding: 0em;
+  background-color: lightgray;
+  box-shadow: 0.15em 0.15em 0.15em 0.15em dimgray;
+  margin: 1px;
+  border-radius: 4px;
+}
+
+.card:hover {
+  opacity: 0.7;
+}
+
+.dci {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.picture {
+  box-shadow: 2px 2px 2px 2px dimgray;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.picture-text {
+  font-size: 0.75em;
+  padding: 0.25em;
+}
