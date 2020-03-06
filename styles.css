@@ -11,9 +11,7 @@ body {
   margin: 0 auto;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   color: whitesmoke;
   text-align: center;
 }
@@ -43,6 +41,7 @@ h3 {
 .all-pictures {
   margin-top: 10px;
 }
+
 .contacts {
   background-color: gray;
   padding: 10px;
@@ -81,6 +80,7 @@ h3 {
 .a {
   color: dimgray;
 }
+
 .projects-button {
   background-color: #680606;
   color: dimgray;
@@ -101,6 +101,7 @@ h3 {
   text-decoration: none;
   opacity: 75%;
 }
+
 .list-1 {
   margin-bottom: 15px;
 }
@@ -148,3 +149,5 @@ h3 {
   width: 500px;
   margin: 0 auto;
 }
+
+/* all the widths and margins are in pixles/ not updated to be responsive on all screens */
