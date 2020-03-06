@@ -3,6 +3,7 @@ body {
   width: 100vw;
   margin: auto;
 }
+
 .box {
   height: 100px;
   background-color: gray;
@@ -90,8 +91,7 @@ body {
   font-size: 35px;
 }
 
-.fa,
-.a {
+.fa, .a {
   padding: 2em;
   justify-content: space-evenly;
 }
@@ -102,8 +102,11 @@ body {
 }
 
 /* mobile */
+
 @media (min-width: 760px) {
   .content {
     width: auto;
   }
 }
+
+/* some of the widths and margins are in pixles/ not updated to be responsive on all screens */
