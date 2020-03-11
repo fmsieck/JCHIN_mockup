@@ -1,14 +1,39 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Josefin Sans", "sans-serif";
 }
 
 body {
   background-color: silver;
-  font-family: "Josefin Sans", "sans-serif";
   text-align: center;
-  margin: 0 auto;
+  margin: auto;
+}
+.header {
+  text-align: center;
+  background-color: snow;
+  width: 100vw;
+}
+
+p {
+  text-align: justify;
+}
+
+.Jchin {
+  padding: 15px;
+  background-color: dimgray;
+}
+.profile-pic {
+  margin: auto;
+  width: 100vw;
+}
+
+img {
+  object-fit: cover;
+  padding: 0.25em;
+  width: 20vw;
+  height: 20vh;
 }
 
 h1,
@@ -18,22 +43,8 @@ h3 {
   text-align: center;
 }
 
-.profile-pic {
-  background-color: snow;
-}
-
-.Jchin {
-  padding: 15px;
-}
-
-.ul {
-  list-style-type: bullet;
-}
-
 .projects {
   background-color: gray;
-  padding: 8px;
-  margin-top: 8px;
 }
 
 .projects-word {
@@ -41,15 +52,25 @@ h3 {
 }
 
 .all-pictures {
-  margin-top: 10px;
+  margin-top: 0.25em;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  object-fit: cover;
+  max-width: 100vw;
+  max-height: 100vh;
 }
-.contacts {
+.contacts p {
   background-color: gray;
+  color: whitesmoke;
   padding: 10px;
+  text-align: center;
 }
 
 .contact-info {
+  background-color: gray;
   padding-top: 10px;
+  text-align: center;
 }
 
 .title-about {
@@ -78,8 +99,9 @@ h3 {
   margin-bottom: 15px;
 }
 
-.a {
-  color: dimgray;
+a {
+  color: whitesmoke;
+  text-decoration: none;
 }
 .projects-button {
   background-color: #680606;
@@ -88,6 +110,7 @@ h3 {
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
+  text-decoration: floralwhite;
   margin-bottom: 15px;
 }
 
@@ -103,6 +126,7 @@ h3 {
 }
 .list-1 {
   margin-bottom: 15px;
+  color: whitesmoke;
 }
 
 .more-about-button {
@@ -112,7 +136,7 @@ h3 {
 }
 
 .more-about-button:hover {
-  text-decoration: none;
+  text-decoration: white;
   opacity: 75%;
 }
 
@@ -128,9 +152,8 @@ h3 {
 }
 
 .fa {
-  padding: 20px;
+  padding: 0.5em;
   font-size: 30px;
-  width: 50px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -146,5 +169,5 @@ h3 {
   margin-top: 15px;
   margin-bottom: 50px;
   width: 500px;
-  margin: 0 auto;
+  margin: auto;
 }
