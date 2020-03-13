@@ -1,13 +1,17 @@
 body {
-  font-family: "Josefin Sans", "sans-serif";
+  font-family: "Josefin Sans", sans-serif;
   width: 100vw;
   margin: auto;
+  background-color: lightgray;
 }
 .box {
-  height: 100px;
   background-color: gray;
   margin: 0;
   width: 100vw;
+}
+
+p {
+  text-align: justify;
 }
 
 .name {
@@ -53,10 +57,9 @@ body {
 }
 
 .block-quote {
-  width: 600px;
+  max-width: 100vw;
   margin-left: 15px;
-  margin-right: 200px;
-  float: right;
+  margin-right: 100px;
   line-height: 25px;
 }
 
@@ -78,27 +81,36 @@ body {
 
 .footer {
   margin: auto;
+  background-color: dimgray;
 }
 
 .foot-line {
-  margin-bottom: 10px;
   width: 500px;
 }
 
-.fabs {
+.social-links {
   display: flex;
+  flex-direction: row;
   font-size: 35px;
+  margin: auto;
+  justify-content: space-evenly;
 }
 
 .fa,
 .a {
   padding: 2em;
-  justify-content: space-evenly;
 }
 
-.fab:hover {
-  opacity: 50%;
-  color: red;
+.social-links,
+a::before {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.social-links,
+a:hover {
+  opacity: 100%;
+  color: #680606;
 }
 
 /* mobile */

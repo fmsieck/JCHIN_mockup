@@ -9,37 +9,42 @@ body {
   background-color: silver;
   text-align: center;
   margin: auto;
+  padding: 0.1em 0.1em;
 }
+
 .header {
-  text-align: center;
+  object-fit: cover;
   background-color: snow;
-  width: 100vw;
+  max-width: 100vw;
+}
+
+.Jchin {
+  background-color: dimgray;
+  margin-bottom: 0.1em;
+}
+
+.profile-pic {
+  margin: auto;
 }
 
 p {
   text-align: justify;
 }
 
-.Jchin {
-  padding: 15px;
-  background-color: dimgray;
-}
-.profile-pic {
-  margin: auto;
-  width: 100vw;
-}
-
 img {
   object-fit: cover;
-  padding: 0.25em;
   width: 20vw;
   height: 20vh;
 }
 
-h1,
+h1 {
+  color: whitesmoke;
+  text-align: center;
+}
+
 h2,
 h3 {
-  color: whitesmoke;
+  color: #680606;
   text-align: center;
 }
 
@@ -47,11 +52,7 @@ h3 {
   background-color: gray;
 }
 
-.projects-word {
-  padding: 10px;
-}
-
-.all-pictures {
+.all-pictures .img {
   margin-top: 0.25em;
   display: flex;
   align-items: flex-start;
@@ -71,6 +72,7 @@ h3 {
   background-color: gray;
   padding-top: 10px;
   text-align: center;
+  color: #680606;
 }
 
 .title-about {
@@ -78,19 +80,7 @@ h3 {
   padding: 10px;
 }
 
-.h-line {
-  margin-top: 15px;
-  margin-bottom: 20px;
-  width: 500px;
-  margin: auto;
-}
-
-.about-text {
-  margin-top: 15px;
-  margin-bottom: 25px;
-}
-
-.more-about {
+button {
   background-color: #680606;
   border-radius: 5px;
   padding: 15px 32px;
@@ -103,23 +93,13 @@ a {
   color: whitesmoke;
   text-decoration: none;
 }
-.projects-button {
-  background-color: #680606;
-  color: dimgray;
-  border-radius: 5px;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  text-decoration: floralwhite;
-  margin-bottom: 15px;
-}
 
 .projects-type-button {
   font-size: 20px;
   font-weight: 500;
 }
 
-.projects-type-button:hover {
+button:hover {
   color: white;
   text-decoration: none;
   opacity: 75%;
@@ -135,24 +115,15 @@ a {
   font-weight: 500;
 }
 
-.more-about-button:hover {
-  text-decoration: white;
-  opacity: 75%;
-}
-
-.h-line-projects {
-  margin-bottom: 10px;
+hr {
   width: 500px;
   margin: auto;
-}
-
-.h-line-contacts {
-  margin: auto;
-  width: 500px;
+  color: whitesmoke;
+  border: 0.5em 0.5em;
 }
 
 .fa {
-  padding: 0.5em;
+  padding: 0.25em;
   font-size: 30px;
   text-align: center;
   text-decoration: none;
@@ -161,13 +132,6 @@ a {
 }
 
 .fa:hover {
-  opacity: 20%;
-  color: #efefef;
-}
-
-.h-line-footer {
-  margin-top: 15px;
-  margin-bottom: 50px;
-  width: 500px;
-  margin: auto;
+  opacity: 100%;
+  color: #680606;
 }
