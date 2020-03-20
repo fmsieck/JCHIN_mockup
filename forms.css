@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+body {
+  background-color: gray;
+  font-family: "Josefin Sans," sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1,
+p,
+label,
+legend,
+input {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1em;
+}
+
+input,
+textarea {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  margin: auto;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 2em;
+  font-weight: 800;
+  padding: 1.5em;
+  text-align: center;
+}
+
+p {
+  color: whitesmoke;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0.25em;
+}
+
+label {
+  color: #680606;
+  padding: 0.5em 0.5em;
+}
+
+legend {
+  color: whitesmoke;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  width: 8em;
+  height: 2.75em;
+  border-radius: 1.75em;
+  padding: 0.5em;
+}
+
+button:hover {
+  color: #ff2377;
+}
+
+a {
+  color: #680606;
+  background-color: dimgray;
+  width: 2em;
+  height: 2em;
+  margin: auto;
+}
+
+a:hover {
+  color: #ff2377;
+}
+
+.page-wrapper {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.card section {
+  background-color: dimgray;
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: auto;
+  border: 0.5em, solid #680606;
+}
+
+.form {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  /* justify-content: center; */
+}
+
+/* .form .field:nth-last-child(3) {
+  position: relative;
+} */
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  padding: 0.75em;
+}
+
+.field {
+  background-image: linear-gradient(gray #680606);
+  /* max-height: 100vh; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+
+.btn-submit {
+  background-color: #680606;
+  text-decoration: whitesmoke;
+  margin: auto;
+}
+
+.social-links {
+  display: inline;
+  margin: auto;
+  width: 45vw;
+}
