@@ -7,7 +7,7 @@
 
 body {
   background-color: gray;
-  font-family: "Josefin Sans," sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   width: 100vw;
   height: 100vh;
 }
@@ -47,6 +47,7 @@ p {
 label {
   color: #680606;
   padding: 0.5em 0.5em;
+  text-align: left;
 }
 
 legend {
@@ -75,14 +76,14 @@ a {
   margin: auto;
 }
 
-a:hover {
+.fa:hover {
   color: #ff2377;
 }
 
 .page-wrapper {
   color: gray;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100vw;
 }
 
@@ -128,8 +129,8 @@ fieldset {
   margin: auto;
 }
 
-.social-links {
-  display: inline;
+/* .social-links {
+  
   margin: auto;
   width: 45vw;
-}
+} */
